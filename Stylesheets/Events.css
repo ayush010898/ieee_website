@@ -1,0 +1,99 @@
+@media screen and (max-width: 600px) {
+  .chapters {
+    background: rgba(255, 255, 255, 0.7);
+  }
+  .chapters .nav-link {
+    font-size: 2vh;
+    font-weight: bold;
+  }
+}
+
+.events {
+  padding-top: 5vh;
+  background: darkgrey;
+  padding-bottom: 5vh;
+}
+
+.events > .title {
+  font-size: 5vh;
+  font-weight: bold;
+  padding-bottom: 2vh;
+}
+
+.events .content {
+  padding: 2vh 3vh;
+  font-size: 2vh;
+  margin: 2vh;
+}
+
+.events .content > .title {
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.events .content > .card-img {
+  margin-top: 2vh;
+}
+
+.events .content > .card-text {
+  padding-top: 2vh;
+}
+
+.events .content .date,
+.events .content .venue,
+.events .content .contact {
+  font-weight: bold;
+}
+
+.events .content .description {
+  padding: 2vh 0;
+}
+
+.accordion {
+  background-color: aliceblue;
+}
+
+.accordion .btn-link:hover,
+.accordion .btn-link:focus {
+  text-decoration: none;
+}
+
+.card,
+.card-header {
+  background-color: transparent;
+  margin: 5px;
+  padding: 10px;
+}
+
+.previous {
+  font-size: 5vh;
+  font-weight: bold;
+  padding-bottom: 2vh;
+  padding-top: 2vh;
+}
+
+/*button style*/
+.btn-link {
+  width: 100%;
+  color: black !important;
+  font-weight: bold;
+  text-align: left !important;
+  font-size: 20px !important;
+}
+
+/*for - sign*/
+.btn-link:after {
+  content: "\2212";
+  width: 35px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 15px;
+  top: 11px;
+  right: 15px;
+  position: absolute;
+}
+
+/*for + sign*/
+.btn-link.collapsed:after {
+  content: "\002B";
+}

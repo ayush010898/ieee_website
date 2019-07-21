@@ -1,0 +1,157 @@
+#slideshow img {
+  width: 100%;
+  height: 100%;
+}
+
+#slideshow .link {
+  color: white;
+  font-size: 2vh;
+}
+
+#slideshow .heading {
+  font-size: 4vh;
+}
+
+.container {
+  padding-top: 5vh;
+  text-align: center;
+}
+
+.page_title {
+  font-size: 5vh;
+  font-weight: bold;
+  padding-bottom: 2vh;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  padding: 1vw;
+}
+
+.content {
+  padding: 1vw;
+  padding-bottom: 2vw;
+}
+
+.flagship_name {
+  font-size: 5vh;
+  font-weight: bold;
+  padding-bottom: 2vh;
+}
+
+.flagship > .row {
+  margin: 1vh;
+  padding: 2vh;
+}
+.flagship .title {
+  font-weight: 900;
+  font-size: 3vh;
+  padding: 0.5vh;
+}
+
+.flagship .description {
+  font-size: 2vh;
+  padding: 0.5vh;
+}
+
+.flagship .coordinators {
+  font-weight: 500;
+  font-size: 2vh;
+  padding: 0.5vh;
+}
+
+.name {
+  font-weight: 2px;
+  font-size: 3vh;
+}
+
+.events {
+  padding-top: 5vh;
+  padding-bottom: 5vh;
+}
+
+.events > .title {
+  font-size: 5vh;
+  font-weight: bold;
+  padding-bottom: 2vh;
+}
+
+.events .content {
+  padding: 2vh 3vh;
+  font-size: 2vh;
+  margin: 2vh;
+}
+
+.events .content > .title {
+  font-size: 3vh;
+  font-weight: bold;
+}
+
+.events .content > .card-img {
+  margin-top: 2vh;
+}
+
+.events .content > .card-text {
+  padding-top: 2vh;
+}
+
+.events .content .date,
+.events .content .venue,
+.events .content .contact {
+  font-weight: bold;
+}
+
+.events .content .description {
+  padding: 2vh 0;
+}
+
+.coordinator {
+  font-weight: 500;
+  font-size: 2vh;
+  padding: 0.5vh;
+}
+
+.previous_years {
+  font-size: 5vh;
+  font-weight: bold;
+  padding-bottom: 2vh;
+}
+/*on hover of button*/
+.accordion .btn-link:hover,
+.accordion .btn-link:focus {
+  text-decoration: none;
+}
+
+.card,
+.card-header {
+  background-color: transparent;
+  margin: 5px;
+  padding: 10px;
+}
+
+/*button style*/
+.btn-link {
+  width: 100%;
+  color: black !important;
+  font-size: 20px !important;
+  font-weight: bold;
+  text-align: left !important;
+}
+
+/*for - sign*/
+.btn-link:after {
+  content: "\2212";
+  width: 35px;
+  font-size: 25px;
+  text-align: center;
+  border-radius: 15px;
+  top: 11px;
+  right: 15px;
+  position: absolute;
+}
+
+/*for + sign*/
+.btn-link.collapsed:after {
+  content: "\002B";
+}

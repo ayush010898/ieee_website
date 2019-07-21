@@ -1,0 +1,73 @@
+.title{
+  font-weight: bolder;
+  font-size: 7vh;
+  padding: 2vh;
+}
+
+.sig-content .semester{
+  font-weight: bold;
+  font-size: 4vh;
+  padding-bottom: 1vh;
+}
+
+.sig-content .semester a{
+  color: black;
+}
+
+.sig-content  .row{
+  margin: 1vh;
+  padding: 2vh;
+}
+
+.sig-content img{
+  /* width: 100%;
+  height: 100%; */
+}
+
+.sig-content .sig-title{
+  font-weight: 900;
+  font-size: 3vh;
+  padding: 0.5vh;
+}
+
+.sig-content .description{
+  font-size: 2vh;
+  padding: 0.5vh;
+}
+
+.sig-content .instructors{
+  font-weight: 500;
+  font-size: 2vh;
+  padding: 0.5vh;
+}
+
+.sig-content .col-md-4:nth-child(even), 
+.sig-content .col-md-2:nth-child(odd){
+  background-color: #f0efef;
+}
+
+.sig-content .col-md-4:nth-child(odd), 
+.sig-content .col-md-2:nth-child(even){
+  background-color: #c2d4dd;
+}
+
+@media screen and (max-width: 600px) {
+  .sig-content img{
+    display: none;
+  }
+
+  .sig-content .col-md-4{
+    background-image: url(../Images/logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-blend-mode: soft-light;
+  }
+}
+
+.previous-sig > .title{
+  font-weight: bold;
+  font-size: 4vh;
+  padding-bottom: 1vh;
+}
+

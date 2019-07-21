@@ -1,0 +1,39 @@
+#contactUs .modal-header {
+  padding: 2vh;
+  font-weight: bolder;
+  font-size: 4vh;
+}
+
+#contactUs .modal-body{
+  font-size: 2vh;
+}
+
+.feedback-form .title{
+  display: block;
+  font-size: 3vh;
+  font-weight: 500;
+}
+
+.feedback-form label{
+  display: block;
+  float: left;
+}
+
+.feedback-form input{
+  margin: 1vh auto;
+  border: 0.25vh black solid;
+  background-color: transparent;
+  display: block;
+  float: left;
+}
+
+.feedback-form input[type=submit]{
+  display: block;
+  float: left;
+}
+
+#contactUs .modal-footer button{
+  background-color: transparent;
+  border: solid 0.25vh #588c7e;
+  color: #588c7e;
+}
