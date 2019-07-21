@@ -1,0 +1,670 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- TITLE BAR-->
+    <link rel="icon" href="Images/logo.png" type="image/png" />
+    <title>BMSCE IEEE</title>
+
+    <!--stylesheets-->
+    <link rel="stylesheet" href="../Stylesheets/IEEEDay.css" />
+
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Load an icon library-->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
+    <!-- Latest compiled and minified CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  </head>
+
+  <body>
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark">
+      <!--Logo-->
+      <a class="navbar-brand" href="home.html">
+        <img src="Images/full_logo.png" alt="BMSCE IEEE" style="height:75px" />
+      </a>
+
+      <!-- Toggler Button -->
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#collapsibleNavbar"
+      >
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <!--Links-->
+      <div
+        class="collapse navbar-collapse navbar-right justify-content-end"
+        id="collapsibleNavbar"
+      >
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#">HOME</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">EVENTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">JOIN</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">CONTACT US</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+
+    <!--Slideshow-->
+    <div
+      id="slideshow"
+      class="carousel slide"
+      data-ride="carousel"
+      data-interval="5000"
+    >
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#slideshow" data-slide-to="0" class="active"></li>
+        <li data-target="#slideshow" data-slide-to="1"></li>
+        <li data-target="#slideshow" data-slide-to="2"></li>
+      </ul>
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <!--Item 1-->
+        <div class="carousel-item active">
+          <img src="../Images/slideshow/img1.jpg" alt="IEEE XTREME" />
+          <div class="carousel-caption">
+            <div class="heading">
+              IEEE DAY
+            </div>
+            <a href="IEEEXtreme.html" class="link">Click here to know more</a>
+          </div>
+        </div>
+        <!--Item 2-->
+        <div class="carousel-item">
+          <img src="../Images/slideshow/img2.jpg" alt="Chicago" />
+        </div>
+        <!--Item 3-->
+        <div class="carousel-item">
+          <img src="../Images/slideshow/img3.jpg" alt="New York" />
+        </div>
+      </div>
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#slideshow" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#slideshow" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    </div>
+
+    <!--IEEE DAY DESCRIPTION-->
+    <div class="container">
+      <div class="page_title">
+        IEEE DAY
+      </div>
+      <div class="content">
+        <p>
+          (what is IEEE DAY) Lorem ipsum dolor sit, amet consectetur adipisicing
+          elit. Tempora aperiam aliquam ratione ipsa ipsam eius facilis unde
+          repellat? Possimus numquam suscipit inventore excepturi aperiam dolor
+          tempora fugit hic nesciunt provident.
+        </p>
+      </div>
+
+      <!--FLAGSHIP EVENT-->
+      <div class="page_title">
+        FLAGSHIP EVENT
+      </div>
+      <div class="name">
+        EVENT NAME
+      </div>
+      <div class="text-center image">
+        <img src="../Images/logo.png" class="img-fluid rounded" alt="..." />
+      </div>
+      <div class="content">
+        <p>
+          (what is IEEE DAY) Lorem ipsum dolor sit, amet consectetur adipisicing
+          elit. Tempora aperiam aliquam ratione ipsa ipsam eius facilis unde
+          repellat? Possimus numquam suscipit inventore excepturi aperiam dolor
+          tempora fugit hic nesciunt provident. Lorem ipsum dolor sit, amet
+          consectetur adipisicing elit. Tempora aperiam aliquam ratione ipsa
+          ipsam eius facilis unde repellat? Possimus numquam suscipit inventore
+          excepturi aperiam dolor tempora fugit hic nesciunt provident.
+        </p>
+      </div>
+    </div>
+
+    <!-- SIG style card
+    <div class="text-center flagship">
+      <div class="flagship_name">
+        FLAGSHIP EVENT
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-md-2 text-center">
+          <img src="tester.jpeg" width="200px" height="200px" />
+        </div>
+        <div class="col-md-4">
+          <div class="title">
+            TREASURE HUNT
+          </div>
+          <div class="description">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Temporibus
+            blanditiis, quia, delectus ipsum ullam provident, quam atque
+            corporis illo eligendi neque rem similique natus? Accusantium!
+          </div>
+          <div class="coordinators">
+            CO-ORDINATORS: ABC and XYZ
+          </div>
+        </div>
+      </div>
+    </div>
+    -->
+
+    <!--OTHER EVENTS-->
+    <wrapper>
+      <div class="container-fluid events">
+        <div class="title text-center">
+          OTHER EVENTS
+        </div>
+        <div class="row justify-content-center">
+          <!--Event 1-->
+          <div class="col-md-2 content card">
+            <div class="title text-center">
+              EVENT 1
+            </div>
+            <img
+              class="card-img"
+              src="../Images/background/img1.jpg"
+              alt="EVENT"
+            />
+            <div class="card-text">
+              <div class="description text-left">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia aperiam corporis minima incidunt tempora explicabo
+                dignissimos magni laboriosam repellat, voluptatibus harum! Eius
+                repellendus veniam doloremque.
+              </div>
+            </div>
+          </div>
+
+          <!--Event 2-->
+          <div class="col-md-2 content card">
+            <div class="title text-center">
+              EVENT 2
+            </div>
+            <img
+              class="card-img"
+              src="../Images/background/img1.jpg"
+              alt="EVENT"
+            />
+            <div class="card-text">
+              <div class="description text-left">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia aperiam corporis minima incidunt tempora explicabo
+                dignissimos magni laboriosam repellat, voluptatibus harum! Eius
+                repellendus veniam doloremque.
+              </div>
+            </div>
+          </div>
+
+          <!--EVENT 3-->
+          <div class="col-md-2 content card">
+            <div class="title text-center">
+              EVENT 3
+            </div>
+            <img
+              class="card-img"
+              src="../Images/background/img1.jpg"
+              alt="EVENT"
+            />
+            <div class="card-text">
+              <div class="description text-left">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia aperiam corporis minima incidunt tempora explicabo
+                dignissimos magni laboriosam repellat, voluptatibus harum! Eius
+                repellendus veniam doloremque.
+              </div>
+            </div>
+          </div>
+
+          <!--EVENT 4-->
+          <div class="col-md-2 content card">
+            <div class="title text-center">
+              EVENT 4
+            </div>
+            <img
+              class="card-img"
+              src="../Images/background/img1.jpg"
+              alt="EVENT"
+            />
+            <div class="card-text">
+              <div class="description text-left">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Mollitia aperiam corporis minima incidunt tempora explicabo
+                dignissimos magni laboriosam repellat, voluptatibus harum! Eius
+                repellendus veniam doloremque.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </wrapper>
+
+    <!--PREVIOUS YERAS-->
+    <div class="text-center previous_years">
+      PREVIOUS YEARS
+    </div>
+
+    <!--collapsable menu-->
+    <div class="accordion" id="Accordian">
+      <!--2017-2018-->
+      <div class="card">
+        <div class="card-header">
+          <button
+            class="btn btn-link"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseOne"
+            aria-expanded="true"
+            aria-controls="collapseOne"
+          >
+            2017-2018
+          </button>
+        </div>
+
+        <div id="collapseOne" class="collapse" data-parent="#Accordian">
+          <div class="container-fluid events">
+            <!--FLAGSHIP EVENT-->
+            <div class="container">
+              <div class="page_title">
+                FLAGSHIP EVENT
+              </div>
+              <div class="name">
+                EVENT NAME
+              </div>
+              <div class="text-center image">
+                <img
+                  src="../Images/logo.png"
+                  class="img-fluid rounded"
+                  alt="..."
+                />
+              </div>
+              <div class="content">
+                <p>
+                  (what is IEEE DAY) Lorem ipsum dolor sit, amet consectetur
+                  adipisicing elit. Tempora aperiam aliquam ratione ipsa ipsam
+                  eius facilis unde repellat? Possimus numquam suscipit
+                  inventore excepturi aperiam dolor tempora fugit hic nesciunt
+                  provident. Lorem ipsum dolor sit, amet consectetur adipisicing
+                  elit. Tempora aperiam aliquam ratione ipsa ipsam eius facilis
+                  unde repellat? Possimus numquam suscipit inventore excepturi
+                  aperiam dolor tempora fugit hic nesciunt provident.
+                </p>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <!--Event 1-->
+              <div class="col-md-2 content card">
+                <div class="title text-center">
+                  EVENT 1
+                </div>
+                <img
+                  class="card-img"
+                  src="../Images/background/img1.jpg"
+                  alt="EVENT"
+                />
+                <div class="card-text">
+                  <div class="description text-left">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia aperiam corporis minima incidunt tempora explicabo
+                    dignissimos magni laboriosam repellat, voluptatibus harum!
+                    Eius repellendus veniam doloremque.
+                  </div>
+                </div>
+              </div>
+
+              <!--Event 2-->
+              <div class="col-md-2 content card">
+                <div class="title text-center">
+                  EVENT 2
+                </div>
+                <img
+                  class="card-img"
+                  src="../Images/background/img1.jpg"
+                  alt="EVENT"
+                />
+                <div class="card-text">
+                  <div class="description text-left">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia aperiam corporis minima incidunt tempora explicabo
+                    dignissimos magni laboriosam repellat, voluptatibus harum!
+                    Eius repellendus veniam doloremque.
+                  </div>
+                </div>
+              </div>
+
+              <!--EVENT 3-->
+              <div class="col-md-2 content card">
+                <div class="title text-center">
+                  EVENT 3
+                </div>
+                <img
+                  class="card-img"
+                  src="../Images/background/img1.jpg"
+                  alt="EVENT"
+                />
+                <div class="card-text">
+                  <div class="description text-left">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia aperiam corporis minima incidunt tempora explicabo
+                    dignissimos magni laboriosam repellat, voluptatibus harum!
+                    Eius repellendus veniam doloremque.
+                  </div>
+                </div>
+              </div>
+
+              <!--EVENT 4-->
+              <div class="col-md-2 content card">
+                <div class="title text-center">
+                  EVENT 4
+                </div>
+                <img
+                  class="card-img"
+                  src="../Images/background/img1.jpg"
+                  alt="EVENT"
+                />
+                <div class="card-text">
+                  <div class="description text-left">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia aperiam corporis minima incidunt tempora explicabo
+                    dignissimos magni laboriosam repellat, voluptatibus harum!
+                    Eius repellendus veniam doloremque.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--2016-2017-->
+      <div class="card">
+        <div class="card-header">
+          <button
+            class="btn btn-link collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseTwo"
+            aria-expanded="false"
+            aria-controls="collapseTwo"
+          >
+            2016-2017
+          </button>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#Accordian">
+          <div class="container-fluid events">
+            <!--FLAGSHIP EVENT-->
+            <div class="container">
+              <div class="page_title">
+                FLAGSHIP EVENT
+              </div>
+              <div class="name">
+                EVENT NAME
+              </div>
+              <div class="text-center image">
+                <img
+                  src="../Images/logo.png"
+                  class="img-fluid rounded"
+                  alt="..."
+                />
+              </div>
+              <div class="content">
+                <p>
+                  (what is IEEE DAY) Lorem ipsum dolor sit, amet consectetur
+                  adipisicing elit. Tempora aperiam aliquam ratione ipsa ipsam
+                  eius facilis unde repellat? Possimus numquam suscipit
+                  inventore excepturi aperiam dolor tempora fugit hic nesciunt
+                  provident. Lorem ipsum dolor sit, amet consectetur adipisicing
+                  elit. Tempora aperiam aliquam ratione ipsa ipsam eius facilis
+                  unde repellat? Possimus numquam suscipit inventore excepturi
+                  aperiam dolor tempora fugit hic nesciunt provident.
+                </p>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <!--Event 1-->
+              <div class="col-md-2 content card">
+                <div class="title text-center">
+                  EVENT 1
+                </div>
+                <img
+                  class="card-img"
+                  src="../Images/background/img1.jpg"
+                  alt="EVENT"
+                />
+                <div class="card-text">
+                  <div class="description text-left">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia aperiam corporis minima incidunt tempora explicabo
+                    dignissimos magni laboriosam repellat, voluptatibus harum!
+                    Eius repellendus veniam doloremque.
+                  </div>
+                </div>
+              </div>
+
+              <!--Event 2-->
+              <div class="col-md-2 content card">
+                <div class="title text-center">
+                  EVENT 2
+                </div>
+                <img
+                  class="card-img"
+                  src="../Images/background/img1.jpg"
+                  alt="EVENT"
+                />
+                <div class="card-text">
+                  <div class="description text-left">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia aperiam corporis minima incidunt tempora explicabo
+                    dignissimos magni laboriosam repellat, voluptatibus harum!
+                    Eius repellendus veniam doloremque.
+                  </div>
+                </div>
+              </div>
+
+              <!--EVENT 3-->
+              <div class="col-md-2 content card">
+                <div class="title text-center">
+                  EVENT 3
+                </div>
+                <img
+                  class="card-img"
+                  src="../Images/background/img1.jpg"
+                  alt="EVENT"
+                />
+                <div class="card-text">
+                  <div class="description text-left">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia aperiam corporis minima incidunt tempora explicabo
+                    dignissimos magni laboriosam repellat, voluptatibus harum!
+                    Eius repellendus veniam doloremque.
+                  </div>
+                </div>
+              </div>
+
+              <!--EVENT 4-->
+              <div class="col-md-2 content card">
+                <div class="title text-center">
+                  EVENT 4
+                </div>
+                <img
+                  class="card-img"
+                  src="../Images/background/img1.jpg"
+                  alt="EVENT"
+                />
+                <div class="card-text">
+                  <div class="description text-left">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia aperiam corporis minima incidunt tempora explicabo
+                    dignissimos magni laboriosam repellat, voluptatibus harum!
+                    Eius repellendus veniam doloremque.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--2015-2016-->
+      <div class="card">
+        <div class="card-header">
+          <button
+            class="btn btn-link collapsed"
+            type="button"
+            data-toggle="collapse"
+            data-target="#collapseThree"
+            aria-expanded="false"
+            aria-controls="collapseThree"
+          >
+            2015-2016
+          </button>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#Accordian">
+          <div class="container-fluid events">
+            <!--FLAGSHIP EVENT-->
+            <div class="container">
+              <div class="page_title">
+                FLAGSHIP EVENT
+              </div>
+              <div class="name">
+                EVENT NAME
+              </div>
+              <div class="text-center image">
+                <img
+                  src="../Images/logo.png"
+                  class="img-fluid rounded"
+                  alt="..."
+                />
+              </div>
+              <div class="content">
+                <p>
+                  (what is IEEE DAY) Lorem ipsum dolor sit, amet consectetur
+                  adipisicing elit. Tempora aperiam aliquam ratione ipsa ipsam
+                  eius facilis unde repellat? Possimus numquam suscipit
+                  inventore excepturi aperiam dolor tempora fugit hic nesciunt
+                  provident. Lorem ipsum dolor sit, amet consectetur adipisicing
+                  elit. Tempora aperiam aliquam ratione ipsa ipsam eius facilis
+                  unde repellat? Possimus numquam suscipit inventore excepturi
+                  aperiam dolor tempora fugit hic nesciunt provident.
+                </p>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <!--Event 1-->
+              <div class="col-md-2 content card">
+                <div class="title text-center">
+                  EVENT 1
+                </div>
+                <img
+                  class="card-img"
+                  src="../Images/background/img1.jpg"
+                  alt="EVENT"
+                />
+                <div class="card-text">
+                  <div class="description text-left">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia aperiam corporis minima incidunt tempora explicabo
+                    dignissimos magni laboriosam repellat, voluptatibus harum!
+                    Eius repellendus veniam doloremque.
+                  </div>
+                </div>
+              </div>
+
+              <!--Event 2-->
+              <div class="col-md-2 content card">
+                <div class="title text-center">
+                  EVENT 2
+                </div>
+                <img
+                  class="card-img"
+                  src="../Images/background/img1.jpg"
+                  alt="EVENT"
+                />
+                <div class="card-text">
+                  <div class="description text-left">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia aperiam corporis minima incidunt tempora explicabo
+                    dignissimos magni laboriosam repellat, voluptatibus harum!
+                    Eius repellendus veniam doloremque.
+                  </div>
+                </div>
+              </div>
+
+              <!--EVENT 3-->
+              <div class="col-md-2 content card">
+                <div class="title text-center">
+                  EVENT 3
+                </div>
+                <img
+                  class="card-img"
+                  src="../Images/background/img1.jpg"
+                  alt="EVENT"
+                />
+                <div class="card-text">
+                  <div class="description text-left">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia aperiam corporis minima incidunt tempora explicabo
+                    dignissimos magni laboriosam repellat, voluptatibus harum!
+                    Eius repellendus veniam doloremque.
+                  </div>
+                </div>
+              </div>
+
+              <!--EVENT 4-->
+              <div class="col-md-2 content card">
+                <div class="title text-center">
+                  EVENT 4
+                </div>
+                <img
+                  class="card-img"
+                  src="../Images/background/img1.jpg"
+                  alt="EVENT"
+                />
+                <div class="card-text">
+                  <div class="description text-left">
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Mollitia aperiam corporis minima incidunt tempora explicabo
+                    dignissimos magni laboriosam repellat, voluptatibus harum!
+                    Eius repellendus veniam doloremque.
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
